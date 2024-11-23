@@ -29,6 +29,10 @@ const Song = sequelize.define(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    song: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
   { timestamps: false }
 );
